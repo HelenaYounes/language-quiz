@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#streak > .correct {
+  color: green;
+}
+
+#streak > .incorrect {
+  color: red;
+}
+
+#cardArea {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#cardArea > .card {
+  border: 2px solid black;
+  border-radius: 20px;
+  background: red;
+  width: 350px;
+  height: 350px;
+  font-size: 40px;
+  padding: 20px;
+  text-align: center;
+}
+
+#cardArea .cardContent {
+  display: flex;
+  height: 350px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: pink;
+}
